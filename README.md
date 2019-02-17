@@ -2,16 +2,16 @@
 Prove EOS actions on the ethereum blockchain using a trustless block relay service.
 
 ### Tested POC sequence:
-https://github.com/talbaneth/bridge_eth_smart_contracts/blob/master/test/relay.js#L6
+https://github.com/KyberNetwork-xyz/bridge_eth_smart_contracts/blob/master/test/relay.js#L6
 
 ### Kovan deployment:
 https://kovan.etherscan.io/address/0x2b08EBa5972e21C5551f3723BA46Ee9514d18485
 
 ### Verifying an action on testnet:
-https://github.com/talbaneth/bridge_eth_smart_contracts/blob/master/scripts/relayDeployer.js#L202
+https://github.com/KyberNetwork-xyz/bridge_eth_smart_contracts/blob/master/scripts/relayDeployer.js#L202
 
 ### Smart contract test data:
-manufactued using https://github.com/talbaneth/eos/blob/relay_data/programs/relay-data/main.cpp
+manufactued using https://github.com/talbaneth/eos/blob/relay_data/programs/relay-data/main.cpp. 
 inputs for this c++ program:
 * jungle_first_11k.json (manufactured from scripts/get_headers_from_blockchain.sh)
 * action_receipts_digests_10776.json (manufactured by replaying altered node)
